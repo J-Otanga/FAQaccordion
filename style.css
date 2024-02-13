@@ -1,0 +1,65 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(195, 143, 174);
+}
+#background1{
+    background-image: url(file:///C:/Users/USER/AppData/Local/Temp/Rar$DI01.578/background-pattern-desktop.svg);
+    width: 60%;
+    height: 30%;
+    margin:auto;
+}
+#background2{
+    background-color:hsl(0, 22%, 92%);
+    width: 60%;
+    height: 55%;
+    margin: auto;
+    
+}
+
+#display{
+    height: fit-content;
+    width: 26%;
+    position: absolute;
+    z-index: 3;
+    left: 485px;
+    top: 7em;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0 20px 20px;
+
+}
+.accordion-content {
+    display: none;
+    padding: auto;
+}
+
+.accordion-content.active {
+    display: block;
+    }
+
+button{
+    display: inline-flex;
+    background-color: rgb(213, 95, 213);
+    color: white;
+    flex: auto;
+    border-radius: 50%;
+}
+h1{
+    font-weight: 950;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.container{
+    display: inline;
+    background-color: white;
+    border-radius: 15px;
+    width: 32%;
+}
+p{
+    font-size: small;
+}
+h4{
+    font-size: small;
+}
+
